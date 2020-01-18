@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.10.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.bascomb</groupId>
+    <artifactId>petstore-client-server</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>petstore-echo-client</module>
+        <module>petstore-server-stub</module>
+    </modules>
+
+    <name>petstore client server</name>
+    <description>Create a proxy springboot rest api service(client) that echos calls to Petstore Service exposed through http.
+    Use Swagger 2.0/3.0
+    Use swagger codegen maven plugin to generate client sdk.
+    Use swager codegen to generate petstore server stub. Then implement it with persistent storage (NoSQL?)
+    Use Spring Boot for both client and server.
+    Database Technologies?
+    Authentication?
+    </description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <java.version>1.8</java.version>
+    </properties>
+</project>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.bascomb.simple;
+package com.bascomb.petstore.server;
 
 import org.junit.After;
 import org.junit.Before;

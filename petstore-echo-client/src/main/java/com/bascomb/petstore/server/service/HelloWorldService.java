@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.bascomb.simple.service;
+package com.bascomb.petstore.server.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
